@@ -2,7 +2,7 @@
 from babelnetpy.babelnet import BabelNet
 
 class worddictionarybabel:
-    bn = BabelNet(open("llavebabel.txt", "r").read())
+    bn = BabelNet(open("../../MLESSUI/cod/llavebabel.txt", "r").read())
 
     def babelsearch(self, palabra):
         listasyn = list()

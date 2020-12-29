@@ -23,7 +23,7 @@ class evaluations:
                 if muestrapr[i][3] in listapr[i] or muestrapr[i][4] in listapr[i] or muestrapr[i][5] in listapr[i]:
                     cont+=1
 
-        #print(cont)
+        print(cont)
         #print(cont/len(muestrapr[:500]))
         
         return (cont/len(muestrapr[:500]))
